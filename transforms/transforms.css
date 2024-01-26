@@ -4,12 +4,11 @@
 }
 
 #transformer {
-  border-radius: 2em;
-  box-shadow: 10px 10px 0px 0px rgba(144, 93, 187, 0.5);
   margin-top: 200px;
   width: 250px;
   height: 250px;
+  border-radius: 3em;
   background-color: rgb(144, 93, 187);
-  transition: background-color 0.5s ease;
+  box-shadow: 15px 10px 5px 0px rgba(144, 93, 187, 0.5);
   transition: transform 0.5s ease;
 }/*# sourceMappingURL=transforms.css.map */
