@@ -1,9 +1,12 @@
+
 function changeColor(){
     const div = document.getElementById('color-changer');
         // Generate a random color
     const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-    div.style.backgroundColor = randomColor;
     const boxShadowValue = `10px 10px 0px 0px ${hexToRGBA(randomColor,0.5)}`;
+
+
+    div.style.backgroundColor = randomColor;
     div.style.boxShadow = boxShadowValue;
 }
 
