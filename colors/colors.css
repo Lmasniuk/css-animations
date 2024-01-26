@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.color-changer {
+  margin-top: 200px;
+  width: 250px;
+  height: 250px;
+  background-color: aquamarine;
+}/*# sourceMappingURL=colors.css.map */
